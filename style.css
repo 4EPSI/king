@@ -1,0 +1,129 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+  display: flex;
+}
+.logo {
+    width: auto;
+    height: 100px;
+}
+/* .produts {
+    margin-left: 30px;
+}
+.car {
+    margin-left: 30px;
+    margin-top: 30px;
+} */
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+}
+.flex {
+    display: flex;
+    background: green;
+}
+
+.flex-center {
+    justify-content: center;
+    padding: 15px;
+}
+.flex-end {
+    justify-content: flex-end;
+    padding: 15px;
+}
+.flex-start {
+    justify-content: flex-start;
+    padding: 15px;
+}
+.flex-content {
+    height: 100px;
+    width: 100px;
+}
+
+.flex-blue {
+    background: blue;
+    margin: 15px;
+}
+.flex-dark {
+    background: black;
+    margin: 15px;
+}
+.flex-red {
+    background: red;
+    margin: 15px;
+}
+.flex-1 {
+    background: rgb(82, 8, 97);
+    margin: 15px;
+}
+.flex-2 {
+    background: rgb(130, 218, 15);
+    margin: 15px;
+}
+.flex-3 {
+    background: rgb(194, 156, 121);
+    margin: 15px;
+}
+.flex-11 {
+    background: white;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-22 {
+    background: black;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-33 {
+    background: rgb(44, 35, 35);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-44 {
+    background: rgb(90, 76, 76);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-55 {
+    background: rgb(190, 168, 168);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-66 {
+    background: rgb(116, 109, 109);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-77 {
+    background: rgb(27, 20, 20);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-88 {
+    background: rgb(95, 18, 18);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-99 {
+    background: rgb(20, 9, 9);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
