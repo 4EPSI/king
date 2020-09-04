@@ -367,7 +367,52 @@ img {
 /* section_list */
 .section_list {
   margin: 15px;
+  margin-right: 100px;
+  margin-left: 50px;
 }
-.section_teibl_text{
+li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+ul {
+  padding-left: 0;
+}
+.section_teibl_text {
+  margin-top: 25px;
+}
+.section_contact_title {
+  color: #ffffff;
+  font-size: 24px;
+}
+/* OUR SERVICES */
+.section_s2 {
+  margin-right: 50px;
+}
 
+/* NEWS LETTER */
+.section_news {
+  margin-top: 30px;
+  padding-left: 40px;
+}
+.section_NEWS_title {
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 40px;
+}
+.request_email {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.section_send {
+  text-decoration: none;
+  background: #1766b6;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
 }
