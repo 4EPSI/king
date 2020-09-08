@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>alkas</title>
     <link href="fonts/roboto/fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -15,10 +15,10 @@
           <img src="img/logo.png" alt="logo" />
         </a>
         <div class="menu">
-          <a href="#" class="menu-item">HOME</a>
-          <a href="#" class="menu-item">ABOUT</a>
-          <a href="#" class="menu-item">SERVICES</a>
-          <a href="#" class="menu-item">CONTACT US</a>
+          <a href="#home" class="menu-item go_to">HOME</a>
+          <a href="#about" class="menu-item go_to">ABOUT</a>
+          <a href="#services" class="menu-item go_to">SERVICES</a>
+          <a href="#contacts" class="menu-item go_to">CONTACT US</a>
         </div>
         <div class="burger">
           <span></span>
@@ -30,7 +30,7 @@
     </header>
 
     <main class="main">
-      <div class="section_top">
+      <div id="home" class="section_top">
         <div class="container">
           <div class="section_top_content">
             <h1 class="section_top_title">Financial Company</h1>
@@ -136,7 +136,7 @@
         </div>
       </div>
 
-      <div class="section_service">
+      <div id="services" class="section_service">
         <div class="service_title">
           <h2>Our Services</h2>
         </div>
@@ -207,7 +207,7 @@
         </div>
       </div>
 
-      <div class="section_company">
+      <div id="about" class="section_company">
         <div class="container">
           <h2 class="section_company_title">About Us</h2>
           <div class="section_company_text">
@@ -222,7 +222,7 @@
         </div>
       </div>
 
-      <div class="section_request">
+      <div id="contacts" class="section_request">
         <div class="container">
           <div class="section_request_descr">
             <h2 class="section_request_title">REQUEST FOR CALL BACK</h2>

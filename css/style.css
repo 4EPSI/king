@@ -625,7 +625,26 @@ ul {
     flex-wrap: wrap;
   }
   .menu {
-    display: none;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 8px rgb(0 0 0 / 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  .menu.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .menu-item {
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .burger {
     display: block;
