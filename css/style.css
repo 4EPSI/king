@@ -138,8 +138,7 @@ img {
 
 /* section top */
 .section_top {
-  /* height: 900px; */
-  background-image: url(img/top_section_bgpng.png);
+  background-image: url(../img/top_section_bgpng.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -214,7 +213,7 @@ img {
 /* section benefit */
 
 .section_benefit {
-  background-image: url(img/section_benefit_bg.png);
+  background-image: url(../img/section_benefit_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -353,7 +352,7 @@ img {
 }
 /* section_what */
 .section_what {
-  background-image: url(img/whats.png);
+  background-image: url(../img/whats.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -597,11 +596,13 @@ ul {
   .section_service .container,
   .footer .container {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .worker,
   .service,
   .footer_item {
-    width: calc(50% - 30px);
+    width: 48%;
+    margin-right: 0;
   }
   .footer_item {
     margin-bottom: 15px;
